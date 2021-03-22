@@ -1,0 +1,270 @@
+//navigation bar
+.navbar {
+  padding-bottom: 10px;
+  background-image: url(./images/footer-img.jpg);
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-family: 'Titillium Web', sans-serif;
+  @media only screen and (max-width: 544px) {
+    font-size: 2rem;
+  }
+}
+
+.brand-dead {
+  color: red;
+}
+
+.navbar-nav {
+  padding-right: 100px;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+}
+
+.navi {
+  color: white;
+
+    .navi:hover {
+      color:red;
+    }
+}
+
+.current {
+  color: red;
+}
+
+// title section
+.title-header {
+  height: 879.3px;
+  background-image: url(./images/home-jumbo2.jpg);
+  background-size: cover;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+  color: white;
+  margin-bottom: 0;
+
+    .title-text {
+      font-size: 5rem;
+      font-family: 'Titillium Web', sans-serif;
+      text-shadow: #000 0px 0px 1px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .title-caption {
+      font-family: 'Titillium Web', sans-serif;
+      text-shadow: #000 0px 0px 1px;
+      -webkit-font-smoothing: antialiased;
+      width: 600px;
+    }
+
+    button {
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 2.2rem;
+      background-color: rgb(224, 0, 0);
+    }
+
+    .btn-caption {
+      font-style: italic;
+      text-shadow: #000 0px 0px 1px;
+      -webkit-font-smoothing: antialiased;
+    }
+}
+
+// Explanation section 
+.explanation {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  height: 343.1px;
+  background-color: #121212;
+  font-size: 1.2rem;
+
+  @media only screen and (max-width: 999px) {
+    height: 370.8px;
+  }
+
+  @media only screen and (max-width: 669px) {
+    height: 490.8px;
+  }
+
+  @media only screen and (max-width: 522px) {
+    height: 588.5px;
+  }
+
+  @media only screen and (max-width: 482px) {
+    height: 786.2px;
+  }
+
+  @media only screen and (max-width: 405px) {
+    height: 1181.6px;
+  }
+}
+
+.ex-con {
+  text-align: center;
+  margin: auto;
+
+    h2 {
+      text-align: center;
+      padding-top: 60px;
+      padding-bottom: 40px;
+      font-size: 3rem;
+    }
+}
+
+// Features section 
+.features {
+  padding-top: 60px;
+  text-align: center;
+  height: 390.8px;
+  background-color: #262626;
+  color: white;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    ul {
+      font-size: 1.2rem;
+    }
+
+    .first-list {
+      text-align: start;
+      display: inline-block;
+      padding: 50px;
+    }
+
+    .second-list {
+      display: inline-block;
+      text-align: start;
+      padding: 50px;
+    }
+
+    .list-item {
+      padding-top: 10px;
+    }
+
+    @media only screen and (max-width: 1237px) {
+      height: 688.5px;
+    }
+
+    @media only screen and (max-width: 622px) {
+      height: 886.2px;
+    }
+
+    @media only screen and (max-width: 413px) {
+      height: 1232.75px;
+    }
+}
+
+// Information Row 
+.info-row {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  color: white;
+  background-color: #121212;
+  text-align: center;
+  height: 635.05px;
+
+  @media only screen and (max-width: 765px) {
+    height: 1800px;
+  }
+  
+
+    h2 {
+      padding-bottom: 60px;
+      font-size: 3rem;
+    }
+
+    .info-img {
+      padding-bottom: 35px;
+
+      @media only screen and (max-width: 765px) {
+        width: 600px;
+        height: auto;
+      }
+    }
+
+    p {
+      margin: auto;
+      width: 400px;
+      height: auto;
+
+      @media only screen and (max-width: 765px) {
+        width: 600px;
+        height: auto;
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+      }
+    }
+}
+
+// Mission Section 
+.mission-jumbo {
+  height: 683.9px;
+  background-image: url(./images/Mission-Jumbo.jpg);
+  background-size: cover;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+  color: white;
+  margin-bottom: 0;
+
+  @media only screen and (max-width: 1196px) {
+    height: 800px;
+  }
+
+  @media only screen and (max-width: 764px) {
+    height: 900px;
+  }
+
+  @media only screen and (max-width: 412px) {
+    height: 1100px;
+  }
+
+    .container {
+      padding-top: 350px;
+      float: right;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+}
+
+// Footer Section 
+#footer {
+  padding-top: 30px;
+  text-align: center;
+  height: 195.4px;
+  background-image: url(./images/footer-img.jpg);
+  color: white;
+  background-color: #0d0d0d;
+
+    .social-icons {
+      padding: 0 5px;
+    }
+
+    .social-icons:hover {
+      color: red;
+      cursor: pointer;
+    }
+}
+
+.head-text {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.sub-text {
+  font-family: 'Lato', sans-serif;
+}
+
+.section {
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+
+.hidden {
+  opacity: 0;
+}

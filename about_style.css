@@ -1,0 +1,274 @@
+.navbar {
+  padding-bottom: 10px;
+  background-image: url(./images/footer-img.jpg);
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@media only screen and (max-width: 544px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
+
+.brand-dead {
+  color: red;
+}
+
+.navbar-nav {
+  padding-right: 100px;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+}
+
+.navi {
+  color: white;
+}
+
+.navi .navi:hover {
+  color: red;
+}
+
+.current {
+  color: red;
+}
+
+.about-banner {
+  color: white;
+  height: 488.5px;
+  background-image: url(./images/About-Jumbo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+          box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+  margin-bottom: 0;
+}
+
+.about-banner .display-4 {
+  padding-top: 90px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 11rem;
+}
+
+@media only screen and (max-width: 532px) {
+  .about-banner .display-4 {
+    font-size: 5rem;
+  }
+}
+
+.about-row {
+  color: white;
+  height: 1074.7px;
+  background-color: #121212;
+}
+
+@media only screen and (max-width: 989px) {
+  .about-row {
+    height: 1163.2px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .about-row {
+    height: 1663.2px;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .about-row {
+    height: 1760.9px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .about-row {
+    height: 1858.6px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .about-row {
+    height: 1956.3px;
+  }
+}
+
+.about-row .about-header {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .about-row .about-header {
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-row .about-header {
+    font-size: 2rem;
+  }
+}
+
+.about-row .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 765px) {
+  .about-row .container {
+    display: block;
+    text-align: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+}
+
+.about-row img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 765px) {
+  .about-row img {
+    width: 500px;
+    height: auto;
+    max-width: 200%;
+  }
+}
+
+@media only screen and (max-width: 518px) {
+  .about-row img {
+    width: 350px;
+    height: auto;
+    max-width: 200%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .about-row img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.about-row .img-col {
+  -ms-flex-preferred-size: 500%;
+      flex-basis: 500%;
+}
+
+.about-row .text-col {
+  padding-right: 50px;
+}
+
+.about-row .ab2 {
+  padding-bottom: 0px;
+}
+
+.about-row .con2 {
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 765px) {
+  .about-row .con2 .info-img2 {
+    padding-bottom: 20px;
+  }
+}
+
+.about-row .con2 .img-col {
+  padding-right: 50px;
+}
+
+.more-info-row {
+  color: white;
+  text-align: center;
+  background-color: #262626;
+  height: 322.41px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+@media only screen and (max-width: 1016px) {
+  .more-info-row {
+    height: 390.8px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .more-info-row {
+    height: 586.2px;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .more-info-row {
+    height: 879.3px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .more-info-row {
+    height: 977px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.more-info-row .fas {
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.more-info-row .feature-title {
+  padding-bottom: 5px;
+  font-size: 2rem;
+}
+
+.more-info-row .description {
+  margin: auto;
+  width: 300px;
+}
+
+#footer {
+  padding-top: 30px;
+  text-align: center;
+  height: 195.4px;
+  background-image: url(./images/footer-img.jpg);
+  color: white;
+  background-color: #0d0d0d;
+}
+
+#footer .social-icons {
+  padding: 0 5px;
+}
+
+#footer .social-icons:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.head-text {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.sub-text {
+  font-family: 'Lato', sans-serif;
+}
+/*# sourceMappingURL=about_style.css.map */

@@ -1,0 +1,287 @@
+.navbar {
+  padding-bottom: 10px;
+  background-image: url(./images/footer-img.jpg);
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@media only screen and (max-width: 544px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
+
+.brand-dead {
+  color: red;
+}
+
+.navbar-nav {
+  padding-right: 100px;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+}
+
+.navi {
+  color: white;
+}
+
+.navi .navi:hover {
+  color: red;
+}
+
+.current {
+  color: red;
+}
+
+.title-header {
+  height: 879.3px;
+  background-image: url(./images/home-jumbo2.jpg);
+  background-size: cover;
+  -webkit-box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+          box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+  color: white;
+  margin-bottom: 0;
+}
+
+.title-header .title-text {
+  font-size: 5rem;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.title-header .title-caption {
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+  width: 600px;
+}
+
+.title-header button {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.2rem;
+  background-color: #e00000;
+}
+
+.title-header .btn-caption {
+  font-style: italic;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.explanation {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  height: 343.1px;
+  background-color: #121212;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 999px) {
+  .explanation {
+    height: 370.8px;
+  }
+}
+
+@media only screen and (max-width: 669px) {
+  .explanation {
+    height: 490.8px;
+  }
+}
+
+@media only screen and (max-width: 522px) {
+  .explanation {
+    height: 588.5px;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  .explanation {
+    height: 786.2px;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .explanation {
+    height: 1181.6px;
+  }
+}
+
+.ex-con {
+  text-align: center;
+  margin: auto;
+}
+
+.ex-con h2 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 3rem;
+}
+
+.features {
+  padding-top: 60px;
+  text-align: center;
+  height: 390.8px;
+  background-color: #262626;
+  color: white;
+}
+
+.features h2 {
+  font-size: 3rem;
+}
+
+.features ul {
+  font-size: 1.2rem;
+}
+
+.features .first-list {
+  text-align: start;
+  display: inline-block;
+  padding: 50px;
+}
+
+.features .second-list {
+  display: inline-block;
+  text-align: start;
+  padding: 50px;
+}
+
+.features .list-item {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 1237px) {
+  .features {
+    height: 688.5px;
+  }
+}
+
+@media only screen and (max-width: 622px) {
+  .features {
+    height: 886.2px;
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  .features {
+    height: 1232.75px;
+  }
+}
+
+.info-row {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  color: white;
+  background-color: #121212;
+  text-align: center;
+  height: 635.05px;
+}
+
+@media only screen and (max-width: 765px) {
+  .info-row {
+    height: 1800px;
+  }
+}
+
+.info-row h2 {
+  padding-bottom: 60px;
+  font-size: 3rem;
+}
+
+.info-row .info-img {
+  padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 765px) {
+  .info-row .info-img {
+    width: 600px;
+    height: auto;
+  }
+}
+
+.info-row p {
+  margin: auto;
+  width: 400px;
+  height: auto;
+}
+
+@media only screen and (max-width: 765px) {
+  .info-row p {
+    width: 600px;
+    height: auto;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+  }
+}
+
+.mission-jumbo {
+  height: 683.9px;
+  background-image: url(./images/Mission-Jumbo.jpg);
+  background-size: cover;
+  -webkit-box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+          box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+  color: white;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1196px) {
+  .mission-jumbo {
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .mission-jumbo {
+    height: 900px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .mission-jumbo {
+    height: 1100px;
+  }
+}
+
+.mission-jumbo .container {
+  padding-top: 350px;
+  float: right;
+}
+
+.mission-jumbo h1 {
+  font-size: 4rem;
+}
+
+#footer {
+  padding-top: 30px;
+  text-align: center;
+  height: 195.4px;
+  background-image: url(./images/footer-img.jpg);
+  color: white;
+  background-color: #0d0d0d;
+}
+
+#footer .social-icons {
+  padding: 0 5px;
+}
+
+#footer .social-icons:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.head-text {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.sub-text {
+  font-family: 'Lato', sans-serif;
+}
+/*# sourceMappingURL=home_style.css.map */

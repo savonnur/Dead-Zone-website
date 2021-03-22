@@ -1,0 +1,235 @@
+// Navigation bar 
+.navbar {
+  padding-bottom: 10px;
+  background-image: url(./images/footer-img.jpg);
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-family: 'Titillium Web', sans-serif;
+
+  @media only screen and (max-width: 544px) {
+    font-size: 2rem;
+  }
+}
+
+.brand-dead {
+  color: red;
+}
+
+.navbar-nav {
+  padding-right: 100px;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+}
+
+.navi {
+  color: white;
+
+  .navi:hover {
+    color: red;
+  }
+}
+
+.current {
+  color: red;
+}
+
+// About banner 
+.about-banner {
+  color: white;
+  height: 488.5px;
+  background-image: url(./images/About-Jumbo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+  margin-bottom: 0;
+
+  .display-4 {
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 11rem;
+
+    @media only screen and (max-width: 532px) {
+      font-size: 5rem;
+    }
+  }
+}
+
+// About Row 
+.about-row {
+  color: white;
+  height: 1074.7px;
+  background-color: #121212;
+
+  @media only screen and (max-width: 989px) {
+    height: 1163.2px;
+  }
+
+  @media only screen and (max-width: 765px) {
+    height: 1663.2px;
+  }
+
+  @media only screen and (max-width: 429px) {
+    height: 1760.9px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    height: 1858.6px;
+  }
+
+  @media only screen and (max-width: 340px) {
+    height: 1956.3px;
+  }
+
+  .about-header {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 3rem;
+
+    @media only screen and (max-width: 500px) {
+      text-align: left;
+      padding-left: 30px;
+    }
+
+    @media only screen and (max-width: 400px) {
+      font-size: 2rem;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 765px) {
+      display: block;
+      text-align: left;
+      align-items: center;
+      margin: auto;
+    }
+  }
+
+  img {
+    max-width: 100%;
+
+    @media only screen and (max-width: 765px) {
+      width: 500px;
+      height: auto;
+      max-width: 200%;
+    }
+
+    @media only screen and (max-width: 518px) {
+      width: 350px;
+      height: auto;
+      max-width: 200%;
+    }
+
+    @media only screen and (max-width: 375px) {
+      width: 300px;
+      height: auto;
+
+    }
+  }
+
+  .img-col {
+    flex-basis: 500%;
+  }
+
+  .text-col {
+    padding-right: 50px;
+  }
+
+  .ab2 {
+    padding-bottom: 0px;
+  }
+
+  .con2 {
+    padding-top: 40px;
+
+    .info-img2 {
+      @media only screen and (max-width: 765px) {
+        padding-bottom: 20px;
+      }
+    }
+
+    .img-col {
+      padding-right: 50px;
+    }
+  }
+}
+
+// More information row 
+.more-info-row {
+  color: white;
+  text-align: center;
+  background-color: #262626;
+  height: 322.41px;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  @media only screen and (max-width: 1016px) {
+    height: 390.8px;
+  }
+
+  @media only screen and (max-width: 990px) {
+    height: 586.2px;
+  }
+
+  @media only screen and (max-width: 764px) {
+    height: 879.3px;
+  }
+
+  @media only screen and (max-width: 590px) {
+    height: 977px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .fas {
+    padding-top: 60px;
+    padding-bottom: 15px;
+  }
+
+  .feature-title {
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+
+  .description {
+    margin: auto;
+    width: 300px;
+  }
+}
+
+// Footer section 
+#footer {
+  padding-top: 30px;
+  text-align: center;
+  height: 195.4px;
+  background-image: url(./images/footer-img.jpg);
+  color: white;
+  background-color: #0d0d0d;
+
+  .social-icons {
+    padding: 0 5px;
+  }
+
+  .social-icons:hover {
+    color: red;
+    cursor: pointer;
+  }
+}
+
+.head-text {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.sub-text {
+  font-family: 'Lato', sans-serif;
+}
