@@ -1,6 +1,6 @@
 .navbar {
   padding-bottom: 10px;
-  background-image: url(./images/footer-img.jpg);
+  background-image: url(/images/footer-img.jpg);
 }
 
 .navbar-brand {
@@ -40,7 +40,7 @@
 
 .title-header {
   height: 879.3px;
-  background-image: url(./images/home-jumbo2.jpg);
+  background-image: url(/images/home-jumbo2.jpg);
   background-size: cover;
   -webkit-box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
           box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
@@ -224,7 +224,7 @@
 
 .mission-jumbo {
   height: 683.9px;
-  background-image: url(./images/Mission-Jumbo.jpg);
+  background-image: url(/images/Mission-Jumbo.jpg);
   background-size: cover;
   -webkit-box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
           box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
@@ -263,7 +263,7 @@
   padding-top: 30px;
   text-align: center;
   height: 195.4px;
-  background-image: url(./images/footer-img.jpg);
+  background-image: url(/images/footer-img.jpg);
   color: white;
   background-color: #0d0d0d;
 }
@@ -284,4 +284,4 @@
 .sub-text {
   font-family: 'Lato', sans-serif;
 }
-/*# sourceMappingURL=home_style.css.map */
+/*# sourceMappingURL=index.css.map */
